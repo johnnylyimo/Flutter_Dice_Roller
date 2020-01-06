@@ -28,6 +28,7 @@ class _SplashScreenState extends State<SplashScreen> {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           FlutterLogo(
+            colors: Theme.of(context).colorScheme.primary,
             size: 300,
           )
         ],
