@@ -1,5 +1,5 @@
-
 import 'package:flutter/material.dart';
+import 'dart:math';
 
 class DicePlayground extends StatelessWidget {
   @override
@@ -44,7 +44,7 @@ class _PlaygroundState extends State<Playground> {
           splashColor: Theme.of(context).colorScheme.onSecondary,
           onPressed: () {
             setState(() {
-              diceNo = Random().nextInt(6)+1;
+              diceNo = Random().nextInt(6) + 1;
             });
           },
         )
