@@ -63,5 +63,7 @@ class _PlaygroundState extends State<Playground> {
 void _showToast(BuildContext context, int no) {
   final scaffold = Scaffold.of(context);
 
-  scaffold.showSnackBar(SnackBar());
+  scaffold.showSnackBar(SnackBar(
+    duration: Duration(milliseconds: 500),
+  ));
 }
