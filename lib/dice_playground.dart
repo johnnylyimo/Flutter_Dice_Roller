@@ -65,5 +65,6 @@ void _showToast(BuildContext context, int no) {
 
   scaffold.showSnackBar(SnackBar(
     duration: Duration(milliseconds: 500),
+    backgroundColor: Theme.of(context).colorScheme.primary,
   ));
 }
