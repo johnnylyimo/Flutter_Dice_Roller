@@ -14,9 +14,9 @@ class DiceApp extends StatelessWidget {
   );
 
   final ColorScheme colorScheme = ColorScheme.light(
-    primary: Colors.green,
-    secondary: Colors.white,
-  );
+      primary: Colors.green,
+      secondary: Colors.white,
+      onSecondary: Colors.white70);
 
   @override
   Widget build(BuildContext context) {
