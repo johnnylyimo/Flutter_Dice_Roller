@@ -13,6 +13,10 @@ class DiceApp extends StatelessWidget {
     ),
   );
 
+  final ColorScheme colorScheme = ColorScheme.light(
+    primary: Colors.green,
+  );
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
