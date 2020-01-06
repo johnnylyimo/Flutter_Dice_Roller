@@ -13,7 +13,9 @@ class DicePlayground extends StatelessWidget {
           ),
         ),
       ),
-      body: Playground(),
+      body: SafeArea(
+        child: Playground(),
+      ),
     );
   }
 }
