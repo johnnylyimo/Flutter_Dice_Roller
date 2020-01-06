@@ -1,4 +1,4 @@
-import 'package:dice_roller/dice_playground.dart';
+import 'package:dice_roller/screens/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(DiceApp());
@@ -29,7 +29,7 @@ class DiceApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.green,
       ),
-      home: DicePlayground(),
+      home: SplashScreen(),
     );
   }
 }
