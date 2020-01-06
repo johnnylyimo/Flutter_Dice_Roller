@@ -25,6 +25,6 @@ class Playground extends StatefulWidget {
 class _PlaygroundState extends State<Playground> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Column();
   }
 }
