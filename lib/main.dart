@@ -5,6 +5,13 @@ void main() => runApp(DiceApp());
 
 class DiceApp extends StatelessWidget {
   // This widget is the root of your application.
+
+  final TextTheme textTheme = TextTheme(
+    title: TextStyle(
+      fontSize: 20.0,
+    ),
+  );
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
