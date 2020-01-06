@@ -8,6 +8,7 @@ class DiceApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Dice Roller App',
       theme: ThemeData(
         scaffoldBackgroundColor: Colors.white,
