@@ -40,6 +40,7 @@ class _PlaygroundState extends State<Playground> {
           child: Text('Roll'),
           color: Theme.of(context).colorScheme.primary,
           textColor: Theme.of(context).colorScheme.secondary,
+          splashColor: Theme.of(context).colorScheme.onSecondary,
         )
       ],
     );
