@@ -8,6 +8,6 @@ class DicePlayground extends StatefulWidget {
 class _DicePlaygroundState extends State<DicePlayground> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold();
   }
 }
