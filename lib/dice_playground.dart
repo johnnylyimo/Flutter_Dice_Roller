@@ -25,6 +25,8 @@ class Playground extends StatefulWidget {
 class _PlaygroundState extends State<Playground> {
   @override
   Widget build(BuildContext context) {
-    return Column();
+    return Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+    );
   }
 }
