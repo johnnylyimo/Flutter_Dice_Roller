@@ -13,6 +13,7 @@ class DiceApp extends StatelessWidget {
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.green,
       ),
+      home: DicePlayground(),
     );
   }
 }
