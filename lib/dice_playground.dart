@@ -32,6 +32,9 @@ class _PlaygroundState extends State<Playground> {
       children: <Widget>[
         Image(
           image: AssetImage('images/dice$diceNo.jpg'),
+        ),
+        SizedBox(
+          height: 20.0,
         )
       ],
     );
