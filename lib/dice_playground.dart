@@ -60,4 +60,6 @@ class _PlaygroundState extends State<Playground> {
   }
 }
 
-void _showToast(BuildContext context, int no) {}
+void _showToast(BuildContext context, int no) {
+  final scaffold = Scaffold.of(context);
+}
