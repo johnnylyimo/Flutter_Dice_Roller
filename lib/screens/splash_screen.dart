@@ -1,3 +1,4 @@
+import 'package:dice_roller/screens/dice_playground.dart';
 import 'package:flutter/material.dart';
 
 class SplashScreen extends StatefulWidget {
