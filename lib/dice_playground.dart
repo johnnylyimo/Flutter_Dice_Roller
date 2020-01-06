@@ -1,11 +1,6 @@
 import 'package:flutter/material.dart';
 
-class DicePlayground extends StatefulWidget {
-  @override
-  _DicePlaygroundState createState() => _DicePlaygroundState();
-}
-
-class _DicePlaygroundState extends State<DicePlayground> {
+class DicePlayground extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
