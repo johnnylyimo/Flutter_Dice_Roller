@@ -1,3 +1,4 @@
+import 'package:dice_roller/dice_playground.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(DiceApp());
