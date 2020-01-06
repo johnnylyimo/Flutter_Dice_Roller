@@ -29,6 +29,7 @@ class _PlaygroundState extends State<Playground> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
+      scrollDirection: Axis.vertical,
       child: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
