@@ -8,7 +8,8 @@ class DiceApp extends StatelessWidget {
 
   final TextTheme textTheme = TextTheme(
     title: TextStyle(
-      fontSize: 20.0,
+      fontSize: 28.0,
+      color: Colors.white,
     ),
   );
 
