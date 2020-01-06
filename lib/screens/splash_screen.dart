@@ -35,7 +35,10 @@ class _SplashScreenState extends State<SplashScreen> {
             colors: Theme.of(context).colorScheme.primary,
             size: 300,
           ),
-          Text('Enjoy the Game!')
+          Text(
+            'Enjoy the Game!',
+            style: Theme.of(context).textTheme.subtitle,
+          )
         ],
       ),
     );
