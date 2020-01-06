@@ -38,6 +38,7 @@ class _PlaygroundState extends State<Playground> {
         ),
         RaisedButton(
           child: Text('Roll'),
+          color: Theme.of(context).colorScheme.primary,
         )
       ],
     );
