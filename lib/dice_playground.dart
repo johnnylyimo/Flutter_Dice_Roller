@@ -65,7 +65,10 @@ void _showToast(BuildContext context, int no) {
   final scaffold = Scaffold.of(context);
 
   scaffold.showSnackBar(SnackBar(
-    content: Text('Top Dice value: $no'),
+    content: Text(
+      'Top Dice value: $no',
+      textAlign: TextAlign.center,
+    ),
     duration: Duration(milliseconds: 500),
     backgroundColor: Theme.of(context).colorScheme.primary,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
