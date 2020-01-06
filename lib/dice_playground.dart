@@ -51,6 +51,7 @@ class _PlaygroundState extends State<Playground> {
                 setState(() {
                   diceNo = Random().nextInt(6) + 1;
                 });
+                _showToast(context, diceNo);
               },
             )
           ],
