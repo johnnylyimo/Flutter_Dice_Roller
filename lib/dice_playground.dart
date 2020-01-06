@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 class DicePlayground extends StatelessWidget {
@@ -41,6 +42,11 @@ class _PlaygroundState extends State<Playground> {
           color: Theme.of(context).colorScheme.primary,
           textColor: Theme.of(context).colorScheme.secondary,
           splashColor: Theme.of(context).colorScheme.onSecondary,
+          onPressed: () {
+            setState(() {
+              diceNo = Random().nextInt(6)+1;
+            });
+          },
         )
       ],
     );
