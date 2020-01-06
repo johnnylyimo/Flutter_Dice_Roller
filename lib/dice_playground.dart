@@ -23,6 +23,8 @@ class Playground extends StatefulWidget {
 }
 
 class _PlaygroundState extends State<Playground> {
+  int diceNo = 0;
+
   @override
   Widget build(BuildContext context) {
     return Column(
