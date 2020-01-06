@@ -9,6 +9,7 @@ class DiceApp extends StatelessWidget {
     return MaterialApp(
       title: 'Dice Roller App',
       theme: ThemeData(
+        scaffoldBackgroundColor: Colors.green,
         primarySwatch: Colors.green,
       ),
     );
