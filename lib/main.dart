@@ -11,6 +11,10 @@ class DiceApp extends StatelessWidget {
       fontSize: 28.0,
       color: Colors.white,
     ),
+    subtitle: TextStyle(
+      fontSize: 30.0,
+      color: Colors.green,
+    ),
   );
 
   final ColorScheme colorScheme = ColorScheme.light(
