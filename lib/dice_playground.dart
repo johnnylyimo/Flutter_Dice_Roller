@@ -27,6 +27,11 @@ class _PlaygroundState extends State<Playground> {
   Widget build(BuildContext context) {
     return Column(
       mainAxisAlignment: MainAxisAlignment.center,
+      children: <Widget>[
+        Image(
+          image: AssetImage('images/dice$diceNo.jpg'),
+        )
+      ],
     );
   }
 }
