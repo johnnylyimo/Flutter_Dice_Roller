@@ -28,27 +28,29 @@ class _PlaygroundState extends State<Playground> {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
-      children: <Widget>[
-        Image(
-          image: AssetImage('images/dice$diceNo.jpg'),
-        ),
-        SizedBox(
-          height: 20.0,
-        ),
-        RaisedButton(
-          child: Text('Roll'),
-          color: Theme.of(context).colorScheme.primary,
-          textColor: Theme.of(context).colorScheme.secondary,
-          splashColor: Theme.of(context).colorScheme.onSecondary,
-          onPressed: () {
-            setState(() {
-              diceNo = Random().nextInt(6) + 1;
-            });
-          },
-        )
-      ],
+    return Center(
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Image(
+            image: AssetImage('images/dice$diceNo.jpg'),
+          ),
+          SizedBox(
+            height: 20.0,
+          ),
+          RaisedButton(
+            child: Text('Roll'),
+            color: Theme.of(context).colorScheme.primary,
+            textColor: Theme.of(context).colorScheme.secondary,
+            splashColor: Theme.of(context).colorScheme.onSecondary,
+            onPressed: () {
+              setState(() {
+                diceNo = Random().nextInt(6) + 1;
+              });
+            },
+          )
+        ],
+      ),
     );
   }
 }
