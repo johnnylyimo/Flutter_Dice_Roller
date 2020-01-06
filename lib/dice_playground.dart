@@ -12,6 +12,7 @@ class DicePlayground extends StatelessWidget {
           ),
         ),
       ),
+      body: Playground(),
     );
   }
 }
