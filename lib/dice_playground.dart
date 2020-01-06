@@ -10,7 +10,9 @@ class _DicePlaygroundState extends State<DicePlayground> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Dice Roller'),
+        title: Center(
+          child: Text('Dice Roller'),
+        ),
       ),
     );
   }
