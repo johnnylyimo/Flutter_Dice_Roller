@@ -27,6 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
+          Text('Dice Roller Game'),
           FlutterLogo(
             colors: Theme.of(context).colorScheme.primary,
             size: 300,
