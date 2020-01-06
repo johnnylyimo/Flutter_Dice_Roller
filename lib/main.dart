@@ -23,6 +23,7 @@ class DiceApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Dice Roller App',
       theme: ThemeData(
+        colorScheme: colorScheme,
         textTheme: textTheme,
         scaffoldBackgroundColor: Colors.white,
         primaryColor: Colors.green,
