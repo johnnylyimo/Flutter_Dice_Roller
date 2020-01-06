@@ -11,7 +11,10 @@ class _DicePlaygroundState extends State<DicePlayground> {
     return Scaffold(
       appBar: AppBar(
         title: Center(
-          child: Text('Dice Roller'),
+          child: Text(
+            'Dice Roller',
+            style: Theme.of(context).textTheme.title,
+          ),
         ),
       ),
     );
