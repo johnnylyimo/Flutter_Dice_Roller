@@ -49,6 +49,8 @@ class _PlaygroundState extends State<Playground> {
               color: Theme.of(context).colorScheme.primary,
               textColor: Theme.of(context).colorScheme.secondary,
               splashColor: Theme.of(context).colorScheme.onSecondary,
+              shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(20.0)),
               onPressed: () {
                 setState(() {
                   diceNo = Random().nextInt(6) + 1;
