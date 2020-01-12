@@ -75,6 +75,7 @@ void _showToast(BuildContext context, int no) {
       textAlign: TextAlign.center,
     ),
     duration: Duration(milliseconds: 500),
+    behavior: SnackBarBehavior.fixed,
     backgroundColor: Theme.of(context).colorScheme.primary,
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10.0)),
   ));
