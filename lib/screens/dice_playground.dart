@@ -36,6 +36,7 @@ class _PlaygroundState extends State<Playground> {
         width: double.infinity,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: <Widget>[
             Image(
               image: AssetImage('images/dice$diceNo.jpg'),
