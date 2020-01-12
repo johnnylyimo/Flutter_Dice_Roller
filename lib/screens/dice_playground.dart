@@ -33,6 +33,7 @@ class _PlaygroundState extends State<Playground> {
     return SingleChildScrollView(
       scrollDirection: Axis.vertical,
       child: Container(
+        width: double.infinity,
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
