@@ -32,30 +32,28 @@ class _PlaygroundState extends State<Playground> {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       scrollDirection: Axis.vertical,
-      child: Center(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
-            Image(
-              image: AssetImage('images/dice$diceNo.jpg'),
-            ),
-            SizedBox(
-              height: 20.0,
-            ),
-            RaisedButton(
-              child: Text('Roll'),
-              color: Theme.of(context).colorScheme.primary,
-              textColor: Theme.of(context).colorScheme.secondary,
-              splashColor: Theme.of(context).colorScheme.onSecondary,
-              onPressed: () {
-                setState(() {
-                  diceNo = Random().nextInt(6) + 1;
-                });
-                _showToast(context, diceNo);
-              },
-            )
-          ],
-        ),
+      child: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: <Widget>[
+          Image(
+            image: AssetImage('images/dice$diceNo.jpg'),
+          ),
+          SizedBox(
+            height: 20.0,
+          ),
+          RaisedButton(
+            child: Text('Roll'),
+            color: Theme.of(context).colorScheme.primary,
+            textColor: Theme.of(context).colorScheme.secondary,
+            splashColor: Theme.of(context).colorScheme.onSecondary,
+            onPressed: () {
+              setState(() {
+                diceNo = Random().nextInt(6) + 1;
+              });
+              _showToast(context, diceNo);
+            },
+          )
+        ],
       ),
     );
   }
